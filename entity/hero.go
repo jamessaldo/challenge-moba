@@ -23,7 +23,3 @@ func (hero *Hero) ReceiveDamage(opponent interface{}) {
 func (hero *Hero) Punch(hitable Hitable) {
 	hitable.ReceiveDamage(hero)
 }
-
-// func (hero *Hero) ReceiveDamageMonster(hitter *Monster) {
-// 	hero.hp = hero.hp - hitter.damage
-// }
